@@ -7,8 +7,8 @@
 class Game
 {
 public:
-	Game();
 	~Game();
+	Game();
 	void Update();
 	void Render();
 private:

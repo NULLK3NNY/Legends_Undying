@@ -1,5 +1,10 @@
 #include "Entity.h"
 
+Entity::~Entity()
+{
+	UnloadTexture(texture);
+}
+
 void Entity::RenderEntity()
 {
 	if (texture.id != 0)

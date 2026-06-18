@@ -4,6 +4,7 @@
 class Entity
 {
 public:
+	~Entity();
 	void RenderEntity();
 	void SetPositionV(Vector2 position);
 	void SetPositionF(float x, float y);
